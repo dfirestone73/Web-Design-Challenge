@@ -1,0 +1,50 @@
+body {
+    background: #d1caca;
+  }
+
+.navbar {
+    padding: 10px;
+    background: #fff;
+  }
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+  }
+
+.navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+.heading {
+    color: rgb(255, 255, 255);
+    background: rgb(51, 182, 182);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
